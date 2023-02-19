@@ -1,3 +1,6 @@
 [submodule "generated-standard-works"]
 	path = generated-standard-works
 	url = git@github.com:jgibbons94/scriptures-html-generator.git
+[submodule "scriptures-generator"]
+	path = scriptures-generator
+	url = git@github.com:Jonathan-Zollinger/scriptures-generator.git
