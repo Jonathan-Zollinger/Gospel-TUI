@@ -1,48 +1,15 @@
-# OpenGospel 0.3.1
+# Gospel-TUI  
 Read your scriptures on your computer, distraction free.
 
-### What is OpenGospel?
-OpenGospel is a tool to read the Standard Works (The King James Version of the Bible, The Book of Mormon, Doctrine and Covenants and Pearl of Great Price.)
-It was inspired by the application "Gospel Library". Sadly, Gospel Library does not have a GNU/Linux port. That's why I started this project.
-The goal of this project is to bring an open source and redistributable set of scriptures that works on Unix-like systems.
+## Variation from Open-Gospel
 
-### What Operating Systems will it work on?
-In theory, anything that works with Python and GTK 3.
-OpenGospel has only been tested on a variety of GNU/Linux distributions, Including:
-* Ubuntu Mate 16.04
-* Kubuntu 16.04
-* Arch Linux (XFCE, LXDE, and GNOME)
-* Linux Mint XFCE
+This repo varies from Open-Gospel in that there is no graphical user support, rather everything is terminal based.
 
-Wayland is fully supported.
+## Roadmap
 
-### How does OpenGospel work?
-Offline functionality is achieved by having local HTML files, which OpenGospel reads from using Webkit.
+See [milestones](https://github.com/Jonathan-Zollinger/Gospel-TUI/milestones) for a detailed look into my goals for this repo
 
-### Available Content
+### Contributing 
 
-The following content is available offline:
-
-* The entire standard works from scriptures.nephi.org generated using the scriptures html generator script at https://github.com/jgibbons94/scriptures-html-generator
-
-All other content must be viewed through LDS.org at the moment.
-
-### How do I test it?
-First use:
-1. Install Python 3, WebKitGTK (The latest version), and Python GObject from your distribution's repositories.
-2. Download and extract OpenGospel
-3. Open a terminal
-4. Change to the directory you unpacked OpenGospel
-5. Run chmod +x scriptures.py
-6. Run by typing  ./scriptures.py
-    
-Every other use:
-1. Open a terminal
-2. Change to the directory you unpacked OpenGospel
-3. Run by typing  ./scriptures.py
-
-### How can I help?
-* Take a look at Issues page and help resolve them.
-* Test OpenGospel on other operating systems and distributions.
-* Test for bugs.
-* Create packages (.deb, .rpm, etc...)
+See open issues section. Ideally, the issues are self-contained in scope and requirements. 
+Changes to the main branch are done only via PR
