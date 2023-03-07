@@ -6,22 +6,16 @@ type Query {
 }
 
 type Verses {
-  id: Int
-  chapter_id: Int!
   verse_number: Int!
   scripture_text: String!
 }
 
 type Chapters {
-  id: Int
-  book_id: Int
   chapter_number: Int!
   verses: [Verses!]!
 }
 
 type Books {
-  id: Int
-  volume_id: Int
   book_title: String!
   book_long_title: String
   book_subtitle: String
@@ -31,7 +25,6 @@ type Books {
 }
 
 type Volumes {
-  id: Int
   volume_title: String!
   volume_long_title: String
   volume_subtitle: String
