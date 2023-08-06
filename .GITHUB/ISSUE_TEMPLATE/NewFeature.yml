@@ -1,0 +1,30 @@
+name: New User Story
+about: New improvement to the repo
+title: "[New User Story Title]"
+labels: user
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for adding a new user story with this form!
+  - type: input
+    id: overview
+    attributes:
+      label: User Story Overview
+      description: |
+        Short, sweet and descriptive summary of the feature.
+        Write this in imperative tense, like a git commit message.
+      placeholder: |
+        ex. 'Add unit tests for #4 milestone'
+    validations:
+      required: true
+  - type: textarea
+    id: Description 
+    label: Full Description
+    description: >
+      Be as descriptive as possible, but remember to not 
+      describe HOW to execute any of the code. 
+      Rather, focus on the <i>why</i> behind any 
+      requirements that you feel need justifying. 
+    
